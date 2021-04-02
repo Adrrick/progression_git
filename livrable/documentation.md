@@ -130,7 +130,7 @@ $ sudo usermod -aG docker $USER
 Déconnectez vous puis reconnectez vous. Vous devriez pouvoir faire des commandes docker sans problème.  
 
 Maintenant, allez dans les paramètres de votre compte sur gitea, OAuth2 Applications.  
-Créez une application nommée drone qui redirige vers http://(votre ip)/login  
+Créez une application nommée drone qui redirige vers http://votre.ip:7000/login  
 Gardez de côté votre ID client et secret client, qui vous serons nécessaires pour la suite.  
 Sauvegardez et retournez dans drone.  
 
@@ -423,7 +423,7 @@ Cette partie de code n'est pas un test c'est comme si on éteignait notre consol
 ## 6) Pipeline
 
 Vous pouvez maintenant vérifier que tout fonctionne. Pour ça, connectez vous sur gitea et créez un repository. 
-Ensuitez, tentez d'accéder à http://votre.ip/login. 
+Ensuitez, tentez d'accéder à http://votre.ip:7000/login. 
 Validez le pop-up qui apparaît. Vous devriez être redirigé sur la dashboard de drone. 
 Essayez de synchroniser. Après quelques secondes, votre repo apparaît. Faites enable. Votre repo est prêt. 
 
