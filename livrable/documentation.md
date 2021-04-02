@@ -213,11 +213,11 @@ On crée 2 fichiers
 - code.py (fichier comportent le code du programme)
 - test_code.py (fichier comportent les tests unitaires)
 
-Grace aux ````python from code.py  import ...````
+Grâce aux ````python from code.py  import ...````
 
 Cela nous permet de lier le fichier de code à celui du test.
 
-Généralement on fait passer une variable à faire rentrer à l'utilisateur depuis la console et c'est comme ça que nous testons la sensibilité à la casse de notre code (grace aux test_code.py).
+Généralement on fait passer une variable à faire rentrer à l'utilisateur depuis la console et c'est comme ça que nous testons la sensibilité à la casse de notre code (grâce aux test_code.py).
 
 Cette appel de variable se fait depuis le code de code.py mais pour la 2ème solution c'est different.
 
@@ -226,7 +226,7 @@ On crée 2 fichiers
 - code.py (fichier comportent le code du programme)
 - test_code.py (fichier comportent les tests unitaires)
 
-Toujours grace aux  ````python from code.py  import ...````
+Toujours grâce aux  ````python from code.py  import ...````
 
 Cela nous permet de lier le fichier de code à celui du test.
 
