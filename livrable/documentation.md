@@ -50,7 +50,7 @@ Le guide est fait en suivant notre configuration. Rien ne vous empêche de prend
 
 1. Accéder a l'interface de votre box souvent en entrant 192.168.1.1 dans votre navigateur web.
 2. Avoir les droits d'administrateur sur l'interface (voir selon l'operateur et la box).
-3. aller dans la categorie NAT IPv4.
+3. Aller dans la categorie NAT IPv4.
 4. Puis configurer les differentes redirection comme indiquer si dessous:
 
 - VM Gitea ports 22 et 3000,
